@@ -48,6 +48,10 @@ patch < [patch file]
 
 [hidecursor](https://st.suckless.org/patches/hidecursor/) 输入时隐藏鼠标光标，移动鼠标时显示鼠标光标
 
+4. anysize
+
+[anysize](https://st.suckless.org/patches/anysize/) 终端输出填满整个 st
+
 ## 快捷键
 
 | 键位    | 说明                    |
