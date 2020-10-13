@@ -52,6 +52,13 @@ patch < [patch file]
 
 [anysize](https://st.suckless.org/patches/anysize/) 终端输出填满整个 st
 
+5. alpha
+
+[alpha](https://st.suckless.org/patches/alpha/) 更改终端背景不透明
+
++ 要求
+ compton|xcompmgr|picom 需要安装其中一个才生效
+
 ## 快捷键
 
 | 键位    | 说明                    |
