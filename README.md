@@ -30,6 +30,10 @@ sudo pacman -S adobe-source-code-pro-fonts
 
 ## 自定义补丁
 
+1. copyurl
+
+[copyurl](https://st.suckless.org/patches/copyurl/) 选择并复制 URL
+
 
 ## 运行 st
 
