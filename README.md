@@ -30,6 +30,12 @@ sudo pacman -S adobe-source-code-pro-fonts
 
 ## 自定义补丁
 
+### 打补丁
+
+```shell
+patch < [patch file]
+```
+
 1. copyurl
 
 [copyurl](https://st.suckless.org/patches/copyurl/) 选择并复制 URL
@@ -38,6 +44,9 @@ sudo pacman -S adobe-source-code-pro-fonts
 
 [scrollback](https://st.suckless.org/patches/scrollback/) 滚动查看终端输出
 
+3. hidecursor
+
+[hidecursor](https://st.suckless.org/patches/hidecursor/) 输入时隐藏鼠标光标，移动鼠标时显示鼠标光标
 
 ## 快捷键
 
