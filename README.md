@@ -34,6 +34,22 @@ sudo pacman -S adobe-source-code-pro-fonts
 
 [copyurl](https://st.suckless.org/patches/copyurl/) 选择并复制 URL
 
+2. scrollback
+
+[scrollback](https://st.suckless.org/patches/scrollback/) 滚动查看终端输出
+
+
+## 快捷键
+
+| 键位    | 说明                    |
+| ------- | ----------------------- |
+| <A-S-l> | 选择复制 URL 并高亮显示 |
+| <A-S-k> | 向上翻 1 页终端输出     |
+| <A-S-j> | 向下翻 1 页终端输出     |
+| <C-S-k> | 向上翻 10 行终端输出    |
+| <C-S-j> | 向下翻 10 行终端输出    |
+| <C-A-k> | 向上翻 1 行终端输出     |
+| <C-A-j> | 向下翻 1 行终端输出     |
 
 ## 运行 st
 
