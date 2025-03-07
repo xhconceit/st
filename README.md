@@ -20,15 +20,15 @@ sudo make clean install
 patch < [patch]
 ```
 
+打补丁后的文件
 
+> `*.orig` 补丁后的备份文件
+> `*.rej` 补丁失败被拒绝的更改
+> `*.o` 编译后的中间文件
 
 ### copyurl
 
 [copyurl](https://st.suckless.org/patches/copyurl/)
-
-
-
-
 
 ```bash
 wget https://st.suckless.org/patches/copyurl/st-copyurl-multiline-20230406-211964d.diff
