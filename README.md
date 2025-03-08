@@ -173,4 +173,14 @@ patch < st-newterm-0.9.diff
 make clean install
 ```
 
+### title parsing fix 
+
+[title parsing fix](https://st.suckless.org/patches/title_parsing_fix/)
+
+```bash
+wget https://st.suckless.org/patches/title_parsing_fix/st-title_parsing_fix-0.8.5.diff
+patch < st-title_parsing_fix-0.8.5.diff
+make clean install
+```
+
 
