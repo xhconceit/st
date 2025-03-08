@@ -124,4 +124,22 @@ ptach < st-bold-is-not-bright-20190127-3be4cf1.diff
 make clean install
 ```
 
+### cyclefonts
+
+[cyclefonts](https://st.suckless.org/patches/cyclefonts/)
+
+```bash
+wget https://st.suckless.org/patches/cyclefonts/st-cyclefonts-0.8.4.diff
+patch < st-cyclefonts-0.8.4.diff
+make clean install
+```
+
+| 按键 | 描述 |
+| --   | --   |
+| \<M-s> | 切换字体 |
+
+
+
+
+
 
