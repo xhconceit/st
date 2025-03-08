@@ -184,3 +184,14 @@ make clean install
 ```
 
 
+
+### undercurl
+
+[undercurl](https://st.suckless.org/patches/undercurl/)
+
+```bash
+wget https://st.suckless.org/patches/undercurl/st-undercurl-0.9-20240103.diff
+patch < st-undercurl-0.9-20240103.diff
+make clean install
+```
+
