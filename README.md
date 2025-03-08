@@ -195,3 +195,15 @@ patch < st-undercurl-0.9-20240103.diff
 make clean install
 ```
 
+
+### unfocused cursor
+
+[unfocused cursor](https://st.suckless.org/patches/unfocused_cursor/)
+
+
+```bash
+wget https://st.suckless.org/patches/unfocused_cursor/st-unfocused-cursor-0.1.diff
+patch < st-unfocused-cursor-0.1.diff
+```
+
+
