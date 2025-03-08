@@ -200,10 +200,20 @@ make clean install
 
 [unfocused cursor](https://st.suckless.org/patches/unfocused_cursor/)
 
-
 ```bash
 wget https://st.suckless.org/patches/unfocused_cursor/st-unfocused-cursor-0.1.diff
 patch < st-unfocused-cursor-0.1.diff
+make clean install
+```
+
+### vertcenter
+
+[vertcenter](https://st.suckless.org/patches/vertcenter/)
+
+```bash
+wget https://st.suckless.org/patches/vertcenter/st-vertcenter-20231003-eb3b894.diff
+patch < st-vertcenter-20231003-eb3b894.diff
+make clean install
 ```
 
 
