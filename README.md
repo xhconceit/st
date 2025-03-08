@@ -82,5 +82,14 @@ make clean install
 
 
 
+### anysize
+
+[anysize](https://st.suckless.org/patches/anysize/)
+
+```bash
+wget https://st.suckless.org/patches/anysize/st-anysize-20220718-baa9357.diff
+patch < st-anysize-20220718-baa9357.diff
+make clean install
+```
 
 
