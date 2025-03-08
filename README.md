@@ -151,5 +151,16 @@ make clean install
 ```
 
 
+### nano shortcuts support
+
+
+[nano shortcuts support](https://st.suckless.org/patches/nano_shortcuts_support/)
+
+```bash
+wget https://st.suckless.org/patches/nano_shortcuts_support/st-nano-shortcuts-support-0.8.5.diff
+patch < st-nano-shortcuts-support-0.8.5.diff
+make clean install
+```
+
 
 
