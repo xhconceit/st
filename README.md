@@ -162,5 +162,15 @@ patch < st-nano-shortcuts-support-0.8.5.diff
 make clean install
 ```
 
+### newterm
+
+
+[newterm](https://st.suckless.org/patches/newterm/)
+
+```bash
+wget https://st.suckless.org/patches/newterm/st-newterm-0.9.diff
+patch < st-newterm-0.9.diff
+make clean install
+```
 
 
