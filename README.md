@@ -103,6 +103,15 @@ patch < st-focus-20230610-68d1ad9.diff
 make clean install
 ```
 
+### blinking cursor
+
+[blinking cursor](https://st.suckless.org/patches/blinking_cursor/)
+
+```bash
+wget https://st.suckless.org/patches/blinking_cursor/st-blinking_cursor-20230819-3a6d6d7.diff
+patch < st-blinking_cursor-20230819-3a6d6d7.diff
+make clean install
+```
 
 
 
