@@ -114,5 +114,14 @@ make clean install
 ```
 
 
+### bold is not bright
+
+[bold is not bright](https://st.suckless.org/patches/bold-is-not-bright/)
+
+```bash
+wget https://st.suckless.org/patches/bold-is-not-bright/st-bold-is-not-bright-20190127-3be4cf1.diff
+ptach < st-bold-is-not-bright-20190127-3be4cf1.diff
+make clean install
+```
 
 
