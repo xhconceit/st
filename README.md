@@ -93,3 +93,17 @@ make clean install
 ```
 
 
+### alpha focus highlight
+
+[alpha focus highlight](https://st.suckless.org/patches/alpha_focus_highlight/)
+
+```bash
+wget https://github.com/juliusHuelsmann/st/releases/download/alpha_09/st-focus-20230610-68d1ad9.diff
+patch < st-focus-20230610-68d1ad9.diff
+make clean install
+```
+
+
+
+
+
