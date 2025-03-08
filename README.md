@@ -139,6 +139,16 @@ make clean install
 | \<M-s> | 切换字体 |
 
 
+### ligatures
+
+[ligatures](https://st.suckless.org/patches/ligatures/)
+
+
+```bash
+wget https://st.suckless.org/patches/ligatures/0.9.2/st-ligatures-alpha-scrollback-20240427-0.9.2.diff
+patch <  st-ligatures-alpha-scrollback-20240427-0.9.2.diff
+make clean install
+```
 
 
 
