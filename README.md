@@ -33,6 +33,7 @@ patch < [patch]
 ```bash
 wget https://st.suckless.org/patches/copyurl/st-copyurl-multiline-20230406-211964d.diff
 patch < st-copyurl-multiline-20230406-211964d.diff
+make clean install
 ```
 
 
@@ -44,6 +45,41 @@ patch < st-copyurl-multiline-20230406-211964d.diff
 | 按键 | 描述 |
 | -- | -- |
 | <A-l> | 下一个 `url` |
+
+
+
+### scrollback
+
+[scrollback](https://st.suckless.org/patches/scrollback/)
+
+
+```bash
+wget https://st.suckless.org/patches/scrollback/st-scrollback-0.9.2.diff
+patch < st-scrollback-0.9.2.diff
+make clean install
+```
+
+#### 按键
+
+| 按键 | 描述 |
+| --   |  --  |
+| \<S-PageUp> | 上一页 |
+| \<S-PageDown> | 下一页 |
+
+
+
+### hidecursor
+
+
+[hidecursor](https://st.suckless.org/patches/hidecursor/)
+
+
+```bash
+wget https://st.suckless.org/patches/hidecursor/st-hidecursor-0.8.3.diff
+patch < st-hidecursor-0.8.3.diff
+make clean install
+```
+
 
 
 
