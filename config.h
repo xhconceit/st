@@ -5,12 +5,14 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
+// 字体列表
 static char *fonts[] = {
-	"Liberation Mono:pixelsize=12:antialias=true:autohint=true",
+  "ComicShannsMono Nerd Font Propo:pixelsize=16:antialias=true:autohint=true",
+	"Liberation Mono:pixelsize=16:antialias=true:autohint=true", 
 	"Gohu GohuFont:pixelsize=11:antialias=false:autohint=false",
 };
-static size_t currentfont = 0;
-static int borderpx = 2;
+static size_t currentfont = 0;// 默认第几个字体
+static int borderpx = 0; // 终端边框
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -20,7 +22,7 @@ static int borderpx = 2;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/sh";
+static char *shell = "/bin/zsh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
@@ -98,7 +100,8 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.93, alphaUnfocused = 0.6;
+float alpha = 0.8; // 聚焦的 st 透明度
+float alphaUnfocused = 0.6; // 未聚焦的 st 透明度
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
