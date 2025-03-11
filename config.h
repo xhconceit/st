@@ -22,7 +22,7 @@ static int borderpx = 0; // 终端边框
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/zsh";
+static char *shell = "/bin/zsh"; // 
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
 char *scroll = NULL;
@@ -206,22 +206,22 @@ static MouseShortcut mshortcuts[] = {
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
-	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
-	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
-	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
-	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ TERMMOD,              XK_S,           cyclefonts,     {}        },
-	{ TERMMOD,              XK_Prior,       zoom,           {.f = +1} },
-	{ TERMMOD,              XK_Next,        zoom,           {.f = -1} },
-	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
-	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
-	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
-	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
-	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
-	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ MODKEY,               XK_l,           copyurl,        {.i =  0} },
-	{ MODKEY|ShiftMask,     XK_L,           copyurl,        {.i =  1} },
-	{ TERMMOD,              XK_Return,      newterm,        {.i =  0} },
+	// { XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
+	// { ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
+	// { ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
+	// { XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
+	{ MODKEY,              XK_S,           cyclefonts,     {}        }, // 强化终端字体
+	{ MODKEY,              XK_Prior,       zoom,           {.f = +1} }, // 放大
+	{ MODKEY,              XK_Next,        zoom,           {.f = -1} }, // 缩小
+	{ MODKEY,              XK_Home,        zoomreset,      {.f =  0} }, // 还原
+	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} }, // 复制
+	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} }, // 粘贴
+	// { TERMMOD,              XK_Y,           selpaste,       {.i =  0} }, //
+	// { ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
+	// { TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },  
+	{ MODKEY,               XK_l,           copyurl,        {.i =  0} }, // 下个 url
+	{ MODKEY|ShiftMask,     XK_L,           copyurl,        {.i =  1} }, // 上一个url
+	{ MODKEY|ShiftMask,              XK_Return,      newterm,        {.i =  0} }, // 打开终端
 };
 
 /*
